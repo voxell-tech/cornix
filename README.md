@@ -13,7 +13,7 @@ You can join us on the [Voxell discord server](https://discord.gg/Mhnyp6VYEQ).
 
 ## License
 
-`smart_assist` is dual-licensed under either:
+`crow` is dual-licensed under either:
 
 - MIT License ([LICENSE-MIT](LICENSE-MIT) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
 - Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0))
