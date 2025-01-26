@@ -1761,7 +1761,7 @@ dependencies = [
 
 [[package]]
 name = "cornix"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "bevy",
  "lightyear",
@@ -1769,7 +1769,7 @@ dependencies = [
 
 [[package]]
 name = "cornix_app"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "bevy",
  "lightyear",

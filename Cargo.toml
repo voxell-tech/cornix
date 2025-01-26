@@ -4,14 +4,12 @@ exclude = ["external_crates/"]
 members = ["crates/*", ]
 
 [workspace.package]
-version = "0.0.0"
+version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/voxell-tech/crow"
 
 [workspace.dependencies]
-# cornix = { version = "0.1.0", path = "crates/cornix" }
-# cornix_app = { version = "0.1.0", path = "crates/cornix_app" }
 bevy = { version = "0.15.1", features = ["webgpu"] }
 lightyear = { version = "0.18" }
 
