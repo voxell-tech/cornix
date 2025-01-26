@@ -1,0 +1,16 @@
+[package]
+name = "cornix"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Robust framework for intelligent systems."
+keywords = ["science", "multimedia", "games"]
+
+[dependencies]
+bevy = { workspace = true }
+lightyear = { workspace = true }
+
+[lints]
+workspace = true

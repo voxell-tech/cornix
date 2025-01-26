@@ -1,16 +1,18 @@
 [workspace]
 resolver = "2"
 exclude = ["external_crates/"]
-# members = ["crates/*", ]
+members = ["crates/*", ]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/voxell-tech/crow"
 
 [workspace.dependencies]
+# cornix = { version = "0.1.0", path = "crates/cornix" }
+# cornix_app = { version = "0.1.0", path = "crates/cornix_app" }
 bevy = { version = "0.15.1", features = ["webgpu"] }
 lightyear = { version = "0.18" }
 
@@ -23,20 +25,6 @@ type_complexity = "allow"
 # Allow `if x == false { }`
 bool_comparison = "allow"
 redundant_type_annotations = "warn"
-
-[package]
-name = "crow"
-description = "Robust framework for intelligent systems."
-exclude = ["assets/", ".github/", "crates/"]
-version.workspace = true
-edition.workspace = true
-license.workspace = true
-repository.workspace = true
-readme.workspace = true
-
-[dependencies]
-bevy = { workspace = true }
-lightyear = { workspace = true }
 
 # Compile with Performance Optimizations:
 # https://bevyengine.org/learn/quick-start/getting-started/setup/#compile-with-performance-optimizations

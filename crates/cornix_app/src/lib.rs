@@ -3,9 +3,9 @@ use bevy::audio::{AudioPlugin, Volume};
 use bevy::core_pipeline::tonemapping::Tonemapping;
 use bevy::prelude::*;
 
-pub struct AppPlugin;
+pub struct CornixAppPlugin;
 
-impl Plugin for AppPlugin {
+impl Plugin for CornixAppPlugin {
     fn build(&self, app: &mut App) {
         // Add Bevy plugins.
         app.add_plugins(
@@ -19,7 +19,7 @@ impl Plugin for AppPlugin {
                 })
                 .set(WindowPlugin {
                     primary_window: Window {
-                        title: "Crow".to_string(),
+                        title: "Cornix".to_string(),
                         canvas: Some("#bevy".to_string()),
                         fit_canvas_to_parent: true,
                         prevent_default_event_handling: false,

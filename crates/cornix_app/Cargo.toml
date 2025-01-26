@@ -1,0 +1,16 @@
+[package]
+name = "cornix_app"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Application for running Cornix apps."
+keywords = ["science", "multimedia", "games", "gui"]
+
+[dependencies]
+bevy = { workspace = true }
+lightyear = { workspace = true }
+
+[lints]
+workspace = true

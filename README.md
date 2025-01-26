@@ -1,11 +1,9 @@
 > [!Warning]
 > This project is still in its early phase and currently undergoing heavy development!
 
-# Crow
+# Cornix
 
 Robust framework for intelligent systems.
-
-![crow](./.github/assets/crow-512.jpg)
 
 ## Join the community!
 
@@ -13,7 +11,7 @@ You can join us on the [Voxell discord server](https://discord.gg/Mhnyp6VYEQ).
 
 ## License
 
-`crow` is dual-licensed under either:
+`cornix` is dual-licensed under either:
 
 - MIT License ([LICENSE-MIT](LICENSE-MIT) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
 - Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0))

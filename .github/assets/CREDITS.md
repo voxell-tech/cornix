@@ -1,1 +1,0 @@
-kestrel.jpg - [Kevin Mueller](https://unsplash.com/@kevinmueller)
