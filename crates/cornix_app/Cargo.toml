@@ -2,10 +2,10 @@
 name = "cornix_app"
 version.workspace = true
 edition.workspace = true
-readme.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Application for running Cornix apps."
+readme = "README.md"
+description = "Application for running Cornix app."
 keywords = ["science", "multimedia", "games", "gui"]
 
 [dependencies]
